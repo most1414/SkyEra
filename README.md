@@ -50,7 +50,7 @@
 ## Controls
 
 - **Movement:** Point & Click
-- **Perspective:** Fixed Camera
+- **Perspective:** Free-rotating third-person camera with adjustable zoom
 - **Keyboard shortcuts:** Available in-game - click the yellow ***?*** button in the bottom left corner
 ---
 
