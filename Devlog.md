@@ -61,6 +61,6 @@ The ultimate vision is to transition from a single-player experience into a mass
 - **Visual Evolution:** Replacing generative AI placeholders and marketplace assets with **custom-made 3D models** to suit the projects needs and establish a unique and cohesive art style.
 - **Refactoring existing systems and expanding content of the game**:
 	- **Grid-Based Inventory:** Transitioning from the current slot based system to a **coordinate based grid**, where items have varying dimensions. This will require implementing spatial management logic.
-    	- **Enhanced Quest Framework:** Refactoring the quest system to support an **unlimited number of tasks** within a single mission, allowing for much more complex and multi-stage objectives.
+    - **Enhanced Quest Framework:** Refactoring the quest system to support an **unlimited number of tasks** within a single mission, allowing for much more complex and multi-stage objectives.
 	- **World-Building & Lore:** Developing the game's **Lore** and deep backstory through quest system.
 	- **World Expansion:** Designing and implementing multiple new maps.
