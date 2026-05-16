@@ -13,7 +13,7 @@
 
 ## Core Systems
 
-- **Skill & Attributes:** Character abilities, buffs, and core attributes are fully driven by GAS.
+- **Skill & Attributes:** Twelve character abilities and ten attributes are fully driven by GAS.
 - **Inventory:** system made using Data Tables for item definitions. Supports Drag & Drop operation.
 - **Quest:** Linear quest system with three types of tasks: kill, interact, collect item.
 - **Navigation:** NavMesh system with pathfinding to prevent characters from getting stuck on geometry.
@@ -25,10 +25,11 @@
 ## Engineering Highlights
 
 - **GAS Integration:** Implemented Epic's GAS framework within a predominantly Blueprint-driven project to handle Gameplay Attributes, Abilities, Effects, and Cues.
-- **Environment:** Manually sculpted landscape with basic tools. For bodies of water, I used the official **Water** plugin as well as planes with water materials for specific areas.
+- **Environment:**
+	- Manually sculpted landscape with basic tools. For bodies of water, I used the official **Water** plugin as well as planes with water materials for specific areas.
+	- Fog is adjusted to match the view distance quality.
 - **Optimization:**
     - Applied foliage culling and **Cull Distance Volume** to ensure vegetation and other environment objects arent rendered at certain distance from the player.
-    - Adjusted fog to match the view distance quality for a seamless visual experience.
     - Implemented a **custom render range** logic for enemies, NPCs, and items to keep the frame rate more stable.
 - **Pattern Designs:** 
     - **Component Pattern:** I followed a modular approach by moving Inventory and Quest handling into **Actor Components**.
